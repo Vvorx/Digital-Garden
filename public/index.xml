@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Igor Kopka</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Home on Igor Kopka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keeping a daily minimum</title>
-      <link>/posts/daily-minimum/</link>
+      <link>//localhost:1313/posts/daily-minimum/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/daily-minimum/</guid>
+      <guid>//localhost:1313/posts/daily-minimum/</guid>
       <description>How a daily minimum can help you improve at the things you value.</description>
     </item>
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
+      <guid>//localhost:1313/about/</guid>
       <description>&lt;h1 class=&#34;heading&#34; id=&#34;about-me&#34;&gt;&#xA;  About me&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#about-me&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;My name is Igor, and I am a Computer Science student at the University of Huddersfield.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a list of things I like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;programming&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://app.thestorygraph.com/profile/vvor?redirect=true&#34;&gt;reading&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;working out&lt;/li&gt;&#xA;&lt;li&gt;art&lt;/li&gt;&#xA;&lt;li&gt;travelling&lt;/li&gt;&#xA;&lt;li&gt;running&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I see myself as a lifelong learner. The primary goal of this site is to document my progress on my goals while improving my ability to express myself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/</guid>
+      <description>&lt;h1 class=&#34;heading&#34; id=&#34;my-projects&#34;&gt;&#xA;  My projects&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#my-projects&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;=-=-= &lt;strong&gt;Ongoing Projects&lt;/strong&gt; =-=-=&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://igorkopka.co.uk&#34;&gt;Digital Garden (This website :))&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Constantly improving my &lt;a href=&#34;https://github.com/Vvorx/dotfiles&#34;&gt;dotfiles&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;=-=-= &lt;strong&gt;Finished projects&lt;/strong&gt; =-=-=&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/Y86-Disassembler&#34;&gt;Y86 Disassembler&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/SignLanguageDetector&#34;&gt;Sign Language Detector&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/SporeBot&#34;&gt;SporeBot&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/TAA&#34;&gt;To Ascii&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
