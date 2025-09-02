@@ -1,4 +1,4 @@
-baseURL = 'igorkopka.co.uk'
+baseURL = 'https://igorkopka.co.uk'
 languageCode = 'en-us'
 title = 'Igor Kopka'
 theme = 'typo'
