@@ -11,6 +11,8 @@ hidePagination: true
 
 Constantly improving my [dotfiles](https://github.com/Vvorx/dotfiles)
 
+Homelab running proxmox for some services
+
 =-=-= **Finished projects** =-=-=
 
 [Y86 Disassembler](https://github.com/Vvorx/Y86-Disassembler)
