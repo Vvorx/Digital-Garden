@@ -1,3 +1,8 @@
+---
+hideBackToTop: true
+hidePagination: true
+---
+
 # About me
 
 My name is Igor, and I am a Computer Science student at the University of Huddersfield.
