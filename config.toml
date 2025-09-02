@@ -3,9 +3,6 @@ languageCode = 'en-us'
 title = 'Igor Kopka'
 theme = 'typo'
 
-# Google analytics code
-googleAnalytics = "G-xxxxxxxxx"
-
 [taxonomies]
 tag = 'tags'
 
