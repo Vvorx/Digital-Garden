@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Igor Kopka</title>
-    <link>https://igorkopka.co.uk/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Igor Kopka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://igorkopka.co.uk/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://igorkopka.co.uk/projects/projects/</link>
+      <link>http://localhost:1313/projects/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://igorkopka.co.uk/projects/projects/</guid>
+      <guid>http://localhost:1313/projects/projects/</guid>
       <description>&lt;h1 class=&#34;heading&#34; id=&#34;my-projects&#34;&gt;&#xA;  My projects&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#my-projects&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;=-=-= &lt;strong&gt;Ongoing Projects&lt;/strong&gt; =-=-=&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://igorkopka.co.uk&#34;&gt;Digital Garden (This website :))&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Constantly improving my &lt;a href=&#34;https://github.com/Vvorx/dotfiles&#34;&gt;dotfiles&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;=-=-= &lt;strong&gt;Finished projects&lt;/strong&gt; =-=-=&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/Y86-Disassembler&#34;&gt;Y86 Disassembler&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/SignLanguageDetector&#34;&gt;Sign Language Detector&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/SporeBot&#34;&gt;SporeBot&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/TAA&#34;&gt;To Ascii&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
