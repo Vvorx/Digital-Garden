@@ -73,12 +73,3 @@ url = "https://app.thestorygraph.com/profile/vvor?redirect=true"
 [markup.highlight]
 style = 'algol'
 
-# Giscus comments
-[params.giscus]
-enable = false
-repo = "user/repo"
-repoid = "repoId"
-category = "General"
-categoryid = "categoryId"
-mapping = "pathname"
-theme = "preferred_color_scheme"
