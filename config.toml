@@ -67,7 +67,6 @@ name = "bookshelf"
 url = "https://app.thestorygraph.com/profile/vvor?redirect=true"
 
 
-
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
