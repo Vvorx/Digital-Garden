@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Igor Kopka</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Igor Kopka</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h1 class=&#34;heading&#34; id=&#34;about-me&#34;&gt;&#xA;  About me&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#about-me&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;My name is Igor, and I am a Computer Science student at the University of Huddersfield.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a list of things I like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;programming&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://app.thestorygraph.com/profile/vvor?redirect=true&#34;&gt;reading&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;working out&lt;/li&gt;&#xA;&lt;li&gt;art&lt;/li&gt;&#xA;&lt;li&gt;travelling&lt;/li&gt;&#xA;&lt;li&gt;running&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I see myself as a lifelong learner. The primary goal of this site is to document my progress on my goals while improving my ability to express myself.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
