@@ -9,7 +9,7 @@ hidePagination: true
 
 [Digital Garden (This website :))](https://igorkopka.co.uk)
 
-Constantly improving my [dotfiles](https://github.com/Vvorx/dotfiles)
+Learning Pico8 
 
 Homelab running proxmox for some services
 
