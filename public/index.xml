@@ -29,5 +29,12 @@
       <guid>https://igorkopka.co.uk/projects/</guid>
       <description>&lt;h1 class=&#34;heading&#34; id=&#34;my-projects&#34;&gt;&#xA;  My projects&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#my-projects&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;=-=-= &lt;strong&gt;Ongoing Projects&lt;/strong&gt; =-=-=&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://igorkopka.co.uk&#34;&gt;Digital Garden (This website :))&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Learning Pico8&lt;/p&gt;&#xA;&lt;p&gt;Homelab running proxmox for some services&lt;/p&gt;&#xA;&lt;p&gt;=-=-= &lt;strong&gt;Finished projects&lt;/strong&gt; =-=-=&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/Y86-Disassembler&#34;&gt;Y86 Disassembler&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/SignLanguageDetector&#34;&gt;Sign Language Detector&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/SporeBot&#34;&gt;SporeBot&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/TAA&#34;&gt;To Ascii&lt;/a&gt;&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>https://igorkopka.co.uk/using/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://igorkopka.co.uk/using/</guid>
+      <description>&lt;h1 class=&#34;heading&#34; id=&#34;what-i-use-daily&#34;&gt;&#xA;  What I use daily&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-i-use-daily&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;popOS (gnome) - (main pc)&lt;/p&gt;&#xA;&lt;p&gt;arch (xfce) - (laptop)&lt;/p&gt;&#xA;&lt;p&gt;obsidian&lt;/p&gt;&#xA;&lt;p&gt;zsh&lt;/p&gt;&#xA;&lt;p&gt;kitty&lt;/p&gt;&#xA;&lt;p&gt;nvim&lt;/p&gt;&#xA;&lt;p&gt;vscode&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
