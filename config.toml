@@ -70,6 +70,10 @@ url = "/using"
 name = "bookshelf"
 url = "https://app.thestorygraph.com/profile/vvor?redirect=true"
 
+[[params.menu]]
+name = "photos"
+url = "/photos"
+
 
 # Syntax highlight on code blocks
 [markup]
