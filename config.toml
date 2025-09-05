@@ -63,6 +63,10 @@ name = "projects"
 url = "/projects"
 
 [[params.menu]]
+name = "using"
+url = "/using"
+
+[[params.menu]]
 name = "bookshelf"
 url = "https://app.thestorygraph.com/profile/vvor?redirect=true"
 
