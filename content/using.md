@@ -9,6 +9,8 @@ popOS (gnome) - (main pc)
 
 arch (xfce) - (laptop)
 
+grapheneOS - (pixel 7)
+
 obsidian
 
 zsh
