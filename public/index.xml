@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Igor Kopka</title>
-    <link>http://localhost:1313/</link>
+    <link>https://igorkopka.co.uk/</link>
     <description>Recent content in Home on Igor Kopka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://igorkopka.co.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keeping a daily minimum</title>
-      <link>http://localhost:1313/posts/daily-minimum/</link>
+      <link>https://igorkopka.co.uk/posts/daily-minimum/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/daily-minimum/</guid>
+      <guid>https://igorkopka.co.uk/posts/daily-minimum/</guid>
       <description>How a daily minimum can help you improve at the things you value.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://igorkopka.co.uk/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://igorkopka.co.uk/about/</guid>
       <description>&lt;h1 class=&#34;heading&#34; id=&#34;about-me&#34;&gt;&#xA;  About me&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#about-me&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;My name is Igor, and I am a Computer Science student at the University of Huddersfield.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a list of things I like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;programming&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://app.thestorygraph.com/profile/vvor?redirect=true&#34;&gt;reading&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;working out&lt;/li&gt;&#xA;&lt;li&gt;art&lt;/li&gt;&#xA;&lt;li&gt;travelling&lt;/li&gt;&#xA;&lt;li&gt;running&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I see myself as a lifelong learner. The primary goal of this site is to document my progress on my goals while improving my ability to express myself.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/photos/</link>
+      <link>https://igorkopka.co.uk/photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photos/</guid>
-      <description>&lt;h1 class=&#34;heading&#34; id=&#34;random-assortment-of-photos-i-took&#34;&gt;&#xA;  Random assortment of photos I took&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#random-assortment-of-photos-i-took&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 776; --h: 584;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;nottingham&#34; src=&#34;http://localhost:1313/photos/20250906.jpg&#34; width=&#34;776&#34; height=&#34;584&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 1536; --h: 2040;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;reorganizing my books&#34; src=&#34;http://localhost:1313/photos/reorganizingbooks.jpg&#34; width=&#34;1536&#34; height=&#34;2040&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 4080; --h: 3072;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;Church we went to while in Poland&#34; src=&#34;http://localhost:1313/photos/20250803.jpg&#34; width=&#34;4080&#34; height=&#34;3072&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 2040; --h: 1536;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;2nd year of university room setup&#34; src=&#34;http://localhost:1313/photos/roomy2.jpg&#34; width=&#34;2040&#34; height=&#34;1536&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 1536; --h: 2040;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;drinks&#34; src=&#34;http://localhost:1313/photos/drinks.jpg&#34; width=&#34;1536&#34; height=&#34;2040&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 2040; --h: 1536;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;dog walk in poland&#34; src=&#34;http://localhost:1313/photos/field25.jpg&#34; width=&#34;2040&#34; height=&#34;1536&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+      <guid>https://igorkopka.co.uk/photos/</guid>
+      <description>&lt;h1 class=&#34;heading&#34; id=&#34;random-assortment-of-photos-i-took&#34;&gt;&#xA;  Random assortment of photos I took&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#random-assortment-of-photos-i-took&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 776; --h: 584;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;nottingham&#34; src=&#34;https://igorkopka.co.uk/photos/20250906.jpg&#34; width=&#34;776&#34; height=&#34;584&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 1536; --h: 2040;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;reorganizing my books&#34; src=&#34;https://igorkopka.co.uk/photos/reorganizingbooks.jpg&#34; width=&#34;1536&#34; height=&#34;2040&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 4080; --h: 3072;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;Church we went to while in Poland&#34; src=&#34;https://igorkopka.co.uk/photos/20250803.jpg&#34; width=&#34;4080&#34; height=&#34;3072&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 2040; --h: 1536;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;2nd year of university room setup&#34; src=&#34;https://igorkopka.co.uk/photos/roomy2.jpg&#34; width=&#34;2040&#34; height=&#34;1536&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 1536; --h: 2040;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;drinks&#34; src=&#34;https://igorkopka.co.uk/photos/drinks.jpg&#34; width=&#34;1536&#34; height=&#34;2040&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div class=&#34;img-container&#34; style=&#34;--w: 2040; --h: 1536;&#34;&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;dog walk in poland&#34; src=&#34;https://igorkopka.co.uk/photos/field25.jpg&#34; width=&#34;2040&#34; height=&#34;1536&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://igorkopka.co.uk/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://igorkopka.co.uk/projects/</guid>
       <description>&lt;h1 class=&#34;heading&#34; id=&#34;my-projects&#34;&gt;&#xA;  My projects&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#my-projects&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;=-=-= &lt;strong&gt;Ongoing Projects&lt;/strong&gt; =-=-=&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://igorkopka.co.uk&#34;&gt;Digital Garden (This website :))&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Learning Pico8&lt;/p&gt;&#xA;&lt;p&gt;Homelab running proxmox for some services&lt;/p&gt;&#xA;&lt;p&gt;=-=-= &lt;strong&gt;Finished projects&lt;/strong&gt; =-=-=&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/Y86-Disassembler&#34;&gt;Y86 Disassembler&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/SignLanguageDetector&#34;&gt;Sign Language Detector&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/SporeBot&#34;&gt;SporeBot&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Vvorx/TAA&#34;&gt;To Ascii&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/using/</link>
+      <link>https://igorkopka.co.uk/using/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/using/</guid>
+      <guid>https://igorkopka.co.uk/using/</guid>
       <description>&lt;h1 class=&#34;heading&#34; id=&#34;what-i-use-daily&#34;&gt;&#xA;  What I use daily&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-i-use-daily&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;popOS (gnome) - (main pc)&lt;/p&gt;&#xA;&lt;p&gt;arch (xfce) - (laptop)&lt;/p&gt;&#xA;&lt;p&gt;grapheneOS - (pixel 7)&lt;/p&gt;&#xA;&lt;p&gt;obsidian&lt;/p&gt;&#xA;&lt;p&gt;zsh&lt;/p&gt;&#xA;&lt;p&gt;kitty&lt;/p&gt;&#xA;&lt;p&gt;nvim&lt;/p&gt;&#xA;&lt;p&gt;vscode&lt;/p&gt;</description>
     </item>
   </channel>
