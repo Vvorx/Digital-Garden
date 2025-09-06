@@ -5,6 +5,8 @@ hidePagination: true
 
 # Random assortment of photos I took
 
+![nottingham](20250906.jpg)
+
 ![reorganizing my books](reorganizingbooks.jpg)
 
 ![Church we went to while in Poland](20250803.jpg)
