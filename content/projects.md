@@ -9,9 +9,7 @@ hidePagination: true
 
 [Digital Garden (This website :))](https://igorkopka.co.uk)
 
-Learning Pico8 
-
-Homelab running proxmox for some services
+Homelab running docker for some services
 
 =-=-= **Finished projects** =-=-=
 

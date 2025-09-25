@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Igor Kopka</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Sep 2025 10:04:57 +0100</lastBuildDate>
     <atom:link href="https://igorkopka.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OverTheWire bandit: levels 1-5</title>
+      <link>https://igorkopka.co.uk/posts/overthewire_bandit_1-5/</link>
+      <pubDate>Thu, 25 Sep 2025 10:04:57 +0100</pubDate>
+      <guid>https://igorkopka.co.uk/posts/overthewire_bandit_1-5/</guid>
+      <description>My approach to levels 1-5 on OverTheWire bandit</description>
+    </item>
     <item>
       <title>Keeping a daily minimum</title>
       <link>https://igorkopka.co.uk/posts/daily-minimum/</link>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="https://igorkopka.co.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://igorkopka.co.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://igorkopka.co.uk/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://igorkopka.co.uk/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://igorkopka.co.uk/apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    OverTheWire bandit: levels 1-5 | Igor Kopka
+    
+</title>
+
+<link rel="canonical" href="https://igorkopka.co.uk/posts/overthewire_bandit_1-5/"/>
+
+<meta property="og:url" content="https://igorkopka.co.uk/posts/overthewire_bandit_1-5/">
+  <meta property="og:site_name" content="Igor Kopka">
+  <meta property="og:title" content="OverTheWire bandit: levels 1-5">
+  <meta property="og:description" content="My approach to levels 1-5 on OverTheWire bandit">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-25T10:04:57+01:00">
+    <meta property="article:modified_time" content="2025-09-25T10:04:57+01:00">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.daeaad95ad43daf5dbd7809340e1138c06f21cd5bb7e49eb9f8efd584021c0ac.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="dark">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="https://igorkopka.co.uk/">Igor Kopka</a>
+    </h1>
+
+    <div class="header-menu">
+        
+
+        
+        
+
+        <p
+            class="small ">
+            <a href="/" >
+                /home
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/projects" >
+                /projects
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/using" >
+                /using
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="https://app.thestorygraph.com/profile/vvor?redirect=true" >
+                /bookshelf
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/photos" >
+                /photos
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+<div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
+        <a href="/posts/overthewire_bandit_1-5/">OverTheWire bandit: levels 1-5</a></div>
+
+
+<div >
+  <article>
+    <header class="single-intro-container">
+        
+        <h1 class="single-title">OverTheWire bandit: levels 1-5</h1>
+        <p class="single-summary">My approach to levels 1-5 on OverTheWire bandit</p>
+        
+        <div class="single-subsummary">
+          
+          <div>
+            
+            <p class="single-date">
+              <time datetime="2025-09-25T10:04:57&#43;01:00">September 25, 2025</time>
+            </p>
+          </div>
+        </div>
+        
+    </header>
+    
+    <div class="single-content">
+      <p>For all of my approaches one thing I didn&rsquo;t mention is, if I didn&rsquo;t know any of the commands I just looked through the <code>man</code> pages, I would have a separate terminal or a virtual terminal open to let you have the <code>man</code> pages pulled up on the side.</p>
+<h2 class="heading" id="bandit-level-1">
+  Bandit Level 1
+  <a class="anchor" href="#bandit-level-1">#</a>
+</h2>
+<h4 class="heading" id="task">
+  Task
+  <a class="anchor" href="#task">#</a>
+</h4>
+<p>The password is stored in a file called <code>-</code> located in the home directory</p>
+<h4 class="heading" id="approach">
+  Approach
+  <a class="anchor" href="#approach">#</a>
+</h4>
+<p>I used  <code>cat ./-</code>  to print out the text in the file <code>-</code> is used as an argument so the full location of the file has to be specified in order for <code>cat</code> to find it</p>
+<p>///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+<h2 class="heading" id="bandit-level-2">
+  Bandit Level 2
+  <a class="anchor" href="#bandit-level-2">#</a>
+</h2>
+<h4 class="heading" id="task-1">
+  Task
+  <a class="anchor" href="#task-1">#</a>
+</h4>
+<p>The password is stored in a file called <code>--spaces in this filename--</code></p>
+<h4 class="heading" id="approach-1">
+  Approach
+  <a class="anchor" href="#approach-1">#</a>
+</h4>
+<p>Similar to the first level, I used <code>cat ./--spaces\ in\ this\ filename--</code> to print out the text, the location has to be specified again due to the dashes and backslash has to be used to let the terminal know about the spaces</p>
+<p>in general it&rsquo;s bad practice to use spaces in filenames or directories as spaces are interpreted as <strong>delimiters</strong> (things that separate commands and or arguments). Instead, it&rsquo;s advised to use <strong>underscores</strong> or <strong>dashes</strong></p>
+<p>///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+<h2 class="heading" id="bandit-level-3">
+  Bandit Level 3
+  <a class="anchor" href="#bandit-level-3">#</a>
+</h2>
+<h4 class="heading" id="task-2">
+  Task
+  <a class="anchor" href="#task-2">#</a>
+</h4>
+<p>The password for the next level is stored in a hidden file in the <strong>inhere</strong> directory.</p>
+<h4 class="heading" id="approach-2">
+  Approach
+  <a class="anchor" href="#approach-2">#</a>
+</h4>
+<p>I checked for all files in the <strong>inhere</strong> directory via <code>ls -a inhere</code> which gave me the output</p>
+<pre tabindex="0"><code>bandit3@bandit:~$ ls -a inhere
+.  ..  ...Hiding-From-You
+</code></pre><p>I then ran <code>cat inhere/...Hiding-From-You</code> to print out the password</p>
+<p>///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+<h2 class="heading" id="bandit-level-4">
+  Bandit Level 4
+  <a class="anchor" href="#bandit-level-4">#</a>
+</h2>
+<h4 class="heading" id="task-3">
+  Task
+  <a class="anchor" href="#task-3">#</a>
+</h4>
+<p>The password for the next level is stored in the only human-readable file in the <strong>inhere</strong> directory.</p>
+<h4 class="heading" id="approach-3">
+  Approach
+  <a class="anchor" href="#approach-3">#</a>
+</h4>
+<p>To check which files are human-readable in the <strong>inhere</strong> directory I ran <code>file inhere/*</code> which output all the file types in the directory</p>
+<pre tabindex="0"><code>bandit4@bandit:~$ file inhere/*
+inhere/-file00: Non-ISO extended-ASCII text, with no line terminators, with overstriking
+inhere/-file01: data
+inhere/-file02: data
+inhere/-file03: data
+inhere/-file04: data
+inhere/-file05: data
+inhere/-file06: data
+inhere/-file07: ASCII text
+inhere/-file08: data
+inhere/-file09: data
+</code></pre><p>Then I simply ran <code>cat inhere/-file07</code> to get the password</p>
+<p>///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+<h2 class="heading" id="bandit-level-5">
+  Bandit Level 5
+  <a class="anchor" href="#bandit-level-5">#</a>
+</h2>
+<h4 class="heading" id="task-4">
+  Task
+  <a class="anchor" href="#task-4">#</a>
+</h4>
+<p>The password for the next level is stored in a file somewhere under the <strong>inhere</strong> directory and has all of the following properties:</p>
+<ul>
+<li>human-readable</li>
+<li>1033 bytes in size</li>
+<li>not executable</li>
+</ul>
+<h4 class="heading" id="approach-4">
+  Approach
+  <a class="anchor" href="#approach-4">#</a>
+</h4>
+<p>Since there&rsquo;s a lot of directories to look through I run <code>find inhere/ -size 1033c ! -executable</code>  with <code>-size 1033c</code> specifying a file with 1033 bytes and <code>! -executable</code> specifying a non executable file</p>
+<pre tabindex="0"><code>bandit5@bandit:~$ find inhere/ -size 1033c ! -executable
+inhere/maybehere07/.file2
+</code></pre><p>then as always I get the password using <code>cat</code></p>
+<p><code>cat inhere/maybehere07/.file2</code></p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flexnowrap">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/daily-minimum/">
+                        Keeping a daily minimum
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>
