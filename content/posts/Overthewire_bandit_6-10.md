@@ -1,6 +1,6 @@
 ---
 title: "OverTheWire bandit: levels 6-10"
-date: 2025-09-25T21:40:38+01:00
+date: 2025-09-27T22:43:38+01:00
 summary: My approach to levels 6-10 on OverTheWire bandit
 description:
 toc:
