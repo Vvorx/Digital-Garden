@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="https://igorkopka.co.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://igorkopka.co.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://igorkopka.co.uk/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://igorkopka.co.uk/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://igorkopka.co.uk/apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    OverTheWire bandit: levels 6-10 | Igor Kopka
+    
+</title>
+
+<link rel="canonical" href="https://igorkopka.co.uk/posts/overthewire_bandit_6-10/"/>
+
+<meta property="og:url" content="https://igorkopka.co.uk/posts/overthewire_bandit_6-10/">
+  <meta property="og:site_name" content="Igor Kopka">
+  <meta property="og:title" content="OverTheWire bandit: levels 6-10">
+  <meta property="og:description" content="My approach to levels 6-10 on OverTheWire bandit">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-25T21:40:38+01:00">
+    <meta property="article:modified_time" content="2025-09-25T21:40:38+01:00">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.daeaad95ad43daf5dbd7809340e1138c06f21cd5bb7e49eb9f8efd584021c0ac.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="dark">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="https://igorkopka.co.uk/">Igor Kopka</a>
+    </h1>
+
+    <div class="header-menu">
+        
+
+        
+        
+
+        <p
+            class="small ">
+            <a href="/" >
+                /home
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/projects" >
+                /projects
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/using" >
+                /using
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="https://app.thestorygraph.com/profile/vvor?redirect=true" >
+                /bookshelf
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/photos" >
+                /photos
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+<div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
+        <a href="/posts/overthewire_bandit_6-10/">OverTheWire bandit: levels 6-10</a></div>
+
+
+<div >
+  <article>
+    <header class="single-intro-container">
+        
+        <h1 class="single-title">OverTheWire bandit: levels 6-10</h1>
+        <p class="single-summary">My approach to levels 6-10 on OverTheWire bandit</p>
+        
+        <div class="single-subsummary">
+          
+          <div>
+            
+            <p class="single-date">
+              <time datetime="2025-09-25T21:40:38&#43;01:00">September 25, 2025</time>
+            </p>
+          </div>
+        </div>
+        
+    </header>
+    
+    <div class="single-content">
+      <h2 class="heading" id="bandit-level-6">
+  Bandit Level 6
+  <a class="anchor" href="#bandit-level-6">#</a>
+</h2>
+<h4 class="heading" id="task">
+  Task
+  <a class="anchor" href="#task">#</a>
+</h4>
+<p>The password for the next level is stored <strong>somewhere on the server</strong> and has all of the following properties:</p>
+<ul>
+<li>owned by user bandit7</li>
+<li>owned by group bandit6</li>
+<li>33 bytes in size</li>
+</ul>
+<h4 class="heading" id="approach">
+  Approach
+  <a class="anchor" href="#approach">#</a>
+</h4>
+<p>I used the <code>find</code> command with the following options:</p>
+<ul>
+<li><code>-type f</code>, specifies that we&rsquo;re looking for a file</li>
+<li><code>-user bandit7</code>, finds files that are owned by the user &ldquo;bandit7&rdquo;</li>
+<li><code>-group bandit6</code>, finds files that&rsquo;s are owned by the group &ldquo;bandit6&rdquo;</li>
+<li><code>-size 33c</code>, looks for a file that&rsquo;s 33 bytes</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bandit6@bandit:~$ find / -type f -user bandit7 -group bandit6 -size 33c
+</span></span><span style="display:flex;"><span>find: ‘/sys/kernel/tracing/osnoise’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/kernel/tracing/hwlat_detector’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/kernel/tracing/instances’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/kernel/tracing/trace_stat’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/kernel/tracing/per_cpu’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/kernel/tracing/options’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/kernel/tracing/rv’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/kernel/debug’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/fs/pstore’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/sys/fs/bpf’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/root’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/boot/lost+found’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/boot/efi’: Permission denied
+</span></span><span style="display:flex;"><span>find: ‘/run/udisks2’: Permission denied
+</span></span><span style="display:flex;"><span>........
+</span></span></code></pre></div><p>You&rsquo;ll notice that we got a lot of permission denied messages</p>
+<p>We can add <code>2&gt;/dev/null</code> to help us hide all of those</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bandit6@bandit:~$ find / -type f -user bandit7 -group bandit6 -size 33c 2&gt;/dev/null
+</span></span><span style="display:flex;"><span>/var/lib/dpkg/info/bandit7.password
+</span></span></code></pre></div><p>/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+<h2 class="heading" id="bandit-level-7">
+  Bandit Level 7
+  <a class="anchor" href="#bandit-level-7">#</a>
+</h2>
+<h4 class="heading" id="task-1">
+  Task
+  <a class="anchor" href="#task-1">#</a>
+</h4>
+<p>The password for the next level is stored in the file <strong>data.txt</strong> next to the word <strong>millionth</strong></p>
+<h4 class="heading" id="approach-1">
+  Approach
+  <a class="anchor" href="#approach-1">#</a>
+</h4>
+<p>I used <code>grep</code> to search lines that follow a specific pattern, we can pipe ``
+<code>cat</code> to <code>grep</code> as input to look through the text file.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat data.txt | grep millionth
+</span></span></code></pre></div><p>simple as that :)</p>
+<p>/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+<h2 class="heading" id="bandit-level-8">
+  Bandit Level 8
+  <a class="anchor" href="#bandit-level-8">#</a>
+</h2>
+<h4 class="heading" id="task-2">
+  Task
+  <a class="anchor" href="#task-2">#</a>
+</h4>
+<p>The password for the next level is stored in the file <strong>data.txt</strong> and is the only line of text that occurs only once</p>
+<h4 class="heading" id="approach-2">
+  Approach
+  <a class="anchor" href="#approach-2">#</a>
+</h4>
+<p><code>uniq</code> is the perfect command for this task, it filters through input based on identical lines, The flag <code>-u</code> filters for unique lines which will become very useful when searching for the password in this text file.</p>
+<p><code>sort</code> can be used to sort the lines in the text file, which will allow <code>uniq</code> to find the line that only occurs once</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bandit8@bandit:~$ sort data.txt | uniq -u
+</span></span><span style="display:flex;"><span>UsvVyFSfZZWbidoityourself
+</span></span></code></pre></div><p>/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+<h2 class="heading" id="bandit-level-9">
+  Bandit Level 9
+  <a class="anchor" href="#bandit-level-9">#</a>
+</h2>
+<h4 class="heading" id="task-3">
+  Task
+  <a class="anchor" href="#task-3">#</a>
+</h4>
+<p>The password for the next level is stored in the file <strong>data.txt</strong> in one of the few human-readable strings, preceded by several &ldquo;=&rdquo; characters.</p>
+<h4 class="heading" id="approach-3">
+  Approach
+  <a class="anchor" href="#approach-3">#</a>
+</h4>
+<p>The <code>strings</code> command finds human-readable strings in files, To be specific it prints sequences of printable characters.</p>
+<p>First I used the <code>strings</code> command in &ldquo;data.txt&rdquo;.</p>
+<p>Next, I filter the output by looking at lines that feature more than one &ldquo;=&rdquo; by piping it into <code>grep</code>.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bandit9@bandit:~$ strings data.txt | <span style="color:#666;font-weight:bold;font-style:italic">grep</span> ===
+</span></span><span style="display:flex;"><span>========== the*2i<span style="color:#666;font-style:italic">&#34;4
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">========== password
+</span></span></span><span style="display:flex;"><span><span style="color:#666;font-style:italic">Z)========== is
+</span></span></span></code></pre></div><p>/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
+<h2 class="heading" id="bandit-level-10">
+  Bandit Level 10
+  <a class="anchor" href="#bandit-level-10">#</a>
+</h2>
+<h4 class="heading" id="task-4">
+  Task
+  <a class="anchor" href="#task-4">#</a>
+</h4>
+<p>The password for the next level is stored in the file <strong>data.txt</strong>, which contains base64 encoded data</p>
+<h4 class="heading" id="approach-4">
+  Approach
+  <a class="anchor" href="#approach-4">#</a>
+</h4>
+<p>The <code>base64</code> command allows files as input, so we just need to use the command on the file.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bandit10@bandit:~$ cat data.txt
+</span></span><span style="display:flex;"><span><span style="color:#666;font-weight:bold;font-style:italic">VGhlIHBhc3N3b3JkIGlzIElGdWt3S0dzRlc4TU9xM0lSRnFyeEUxaHhUTkViVVBSCg</span>==
+</span></span><span style="display:flex;"><span>bandit10@bandit:~$ base64 -d data.txt
+</span></span><span style="display:flex;"><span>The password is 
+</span></span></code></pre></div>
+    </div>
+  </article>
+
+  
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flexnowrap">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/overthewire_bandit_1-5/">
+                        OverTheWire bandit: levels 1-5
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>

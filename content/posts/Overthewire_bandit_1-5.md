@@ -48,10 +48,10 @@ The password for the next level is stored in a hidden file in the **inhere** dir
 
 I checked for all files in the **inhere** directory via `ls -a inhere` which gave me the output
 
-```
+````bash
 bandit3@bandit:~$ ls -a inhere
 .  ..  ...Hiding-From-You
-```
+````
 
 I then ran `cat inhere/...Hiding-From-You` to print out the password
 
@@ -68,7 +68,7 @@ The password for the next level is stored in the only human-readable file in the
 To check which files are human-readable in the **inhere** directory I ran `file inhere/*` which output all the file types in the directory
 
 
-```
+````bash
 bandit4@bandit:~$ file inhere/*
 inhere/-file00: Non-ISO extended-ASCII text, with no line terminators, with overstriking
 inhere/-file01: data
@@ -80,7 +80,7 @@ inhere/-file06: data
 inhere/-file07: ASCII text
 inhere/-file08: data
 inhere/-file09: data
-```
+````
 
 Then I simply ran `cat inhere/-file07` to get the password
 
@@ -99,10 +99,10 @@ The password for the next level is stored in a file somewhere under the **inhere
 
 Since there's a lot of directories to look through I run `find inhere/ -size 1033c ! -executable`  with `-size 1033c` specifying a file with 1033 bytes and `! -executable` specifying a non executable file
 
-```
+````bash
 bandit5@bandit:~$ find inhere/ -size 1033c ! -executable
 inhere/maybehere07/.file2
-```
+````
 
 then as always I get the password using `cat`
 

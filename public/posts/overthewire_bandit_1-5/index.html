@@ -248,9 +248,9 @@
   <a class="anchor" href="#approach-2">#</a>
 </h4>
 <p>I checked for all files in the <strong>inhere</strong> directory via <code>ls -a inhere</code> which gave me the output</p>
-<pre tabindex="0"><code>bandit3@bandit:~$ ls -a inhere
-.  ..  ...Hiding-From-You
-</code></pre><p>I then ran <code>cat inhere/...Hiding-From-You</code> to print out the password</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bandit3@bandit:~$ ls -a inhere
+</span></span><span style="display:flex;"><span>.  ..  ...Hiding-From-You
+</span></span></code></pre></div><p>I then ran <code>cat inhere/...Hiding-From-You</code> to print out the password</p>
 <p>/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
 <h2 class="heading" id="bandit-level-4">
   Bandit Level 4
@@ -266,18 +266,18 @@
   <a class="anchor" href="#approach-3">#</a>
 </h4>
 <p>To check which files are human-readable in the <strong>inhere</strong> directory I ran <code>file inhere/*</code> which output all the file types in the directory</p>
-<pre tabindex="0"><code>bandit4@bandit:~$ file inhere/*
-inhere/-file00: Non-ISO extended-ASCII text, with no line terminators, with overstriking
-inhere/-file01: data
-inhere/-file02: data
-inhere/-file03: data
-inhere/-file04: data
-inhere/-file05: data
-inhere/-file06: data
-inhere/-file07: ASCII text
-inhere/-file08: data
-inhere/-file09: data
-</code></pre><p>Then I simply ran <code>cat inhere/-file07</code> to get the password</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bandit4@bandit:~$ file inhere/*
+</span></span><span style="display:flex;"><span>inhere/-file00: Non-ISO extended-ASCII text, with no line terminators, with overstriking
+</span></span><span style="display:flex;"><span>inhere/-file01: data
+</span></span><span style="display:flex;"><span>inhere/-file02: data
+</span></span><span style="display:flex;"><span>inhere/-file03: data
+</span></span><span style="display:flex;"><span>inhere/-file04: data
+</span></span><span style="display:flex;"><span>inhere/-file05: data
+</span></span><span style="display:flex;"><span>inhere/-file06: data
+</span></span><span style="display:flex;"><span>inhere/-file07: ASCII text
+</span></span><span style="display:flex;"><span>inhere/-file08: data
+</span></span><span style="display:flex;"><span>inhere/-file09: data
+</span></span></code></pre></div><p>Then I simply ran <code>cat inhere/-file07</code> to get the password</p>
 <p>/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p>
 <h2 class="heading" id="bandit-level-5">
   Bandit Level 5
@@ -298,9 +298,9 @@ inhere/-file09: data
   <a class="anchor" href="#approach-4">#</a>
 </h4>
 <p>Since there&rsquo;s a lot of directories to look through I run <code>find inhere/ -size 1033c ! -executable</code>  with <code>-size 1033c</code> specifying a file with 1033 bytes and <code>! -executable</code> specifying a non executable file</p>
-<pre tabindex="0"><code>bandit5@bandit:~$ find inhere/ -size 1033c ! -executable
-inhere/maybehere07/.file2
-</code></pre><p>then as always I get the password using <code>cat</code></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>bandit5@bandit:~$ find inhere/ -size 1033c ! -executable
+</span></span><span style="display:flex;"><span>inhere/maybehere07/.file2
+</span></span></code></pre></div><p>then as always I get the password using <code>cat</code></p>
 <p><code>cat inhere/maybehere07/.file2</code></p>
 
     </div>
@@ -332,6 +332,15 @@ inhere/maybehere07/.file2
         </div>
 
         <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/overthewire_bandit_6-10/">
+                        OverTheWire bandit: levels 6-10
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
             
         </div>
 
